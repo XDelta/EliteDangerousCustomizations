@@ -26,11 +26,11 @@
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_LThumb" />
 	</YawLeftButton>
 	<YawRightButton>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_RThumb" />
 	</YawRightButton>
 	<YawToRollMode Value="Bindings_YawIntoRollNone" />
 	<YawToRollSensitivity Value="0.40000001" />
@@ -41,7 +41,7 @@
 		<ToggleOn Value="0" />
 	</YawToRollButton>
 	<RollAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisRaw>
@@ -54,9 +54,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollRightButton>
 	<PitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -80,9 +80,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</VerticalThrustRaw>
 	<UpThrustButton>
 		<Primary Device="Keyboard" Key="Key_R" />
@@ -148,11 +148,11 @@
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="Pos_GamePad_RTrigger" />
 	</ForwardKey>
 	<BackwardKey>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="Pos_GamePad_LTrigger" />
 	</BackwardKey>
 	<ThrottleIncrement Value="0.25000000" />
 	<SetSpeedMinus100>
@@ -277,11 +277,11 @@
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_FaceLeft" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadDown" />
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="Keyboard" Key="Key_K" />
@@ -302,7 +302,7 @@
 	</OrbitLinesToggle>
 	<SelectTarget>
 		<Primary Device="Keyboard" Key="Key_T" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_FaceUp" />
 	</SelectTarget>
 	<CycleNextTarget>
 		<Primary Device="Keyboard" Key="Key_G" />
@@ -338,7 +338,7 @@
 	</TargetWingman2>
 	<SelectTargetsTarget>
 		<Primary Device="Keyboard" Key="Key_0" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_0" />
 	</SelectTargetsTarget>
 	<WingNavLock>
 		<Primary Device="Keyboard" Key="Key_Minus" />
@@ -358,15 +358,17 @@
 	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="Mouse" Key="Mouse_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_RBumper" />
 	</PrimaryFire>
 	<SecondaryFire>
 		<Primary Device="Mouse" Key="Mouse_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_LBumper" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadRight">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceDown" />
+		</Secondary>
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="{NoDevice}" Key="" />
@@ -374,7 +376,7 @@
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
 		<Primary Device="Keyboard" Key="Key_U" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_FaceRight" />
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="1" />
 	<ToggleButtonUpInput>
@@ -405,15 +407,15 @@
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
 		<Primary Device="Keyboard" Key="Key_UpArrow" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadUp" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
 		<Primary Device="Keyboard" Key="Key_RightArrow" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadRight" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
 		<Primary Device="Keyboard" Key="Key_LeftArrow" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_DPadLeft" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
 		<Primary Device="Keyboard" Key="Key_DownArrow" />
@@ -520,7 +522,7 @@
 	</ShowPGScoreSummaryInput>
 	<HeadLookToggle>
 		<Primary Device="Mouse" Key="Mouse_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="GamePad_Back" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
 	<Pause>
@@ -609,9 +611,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -622,17 +624,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</HeadLookYawAxis>
 	<MotionHeadlook Value="0" />
 	<HeadlookMotionSensitivity Value="1.00000000" />
 	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</CamPitchAxis>
 	<CamPitchUp>
 		<Primary Device="Keyboard" Key="Key_T" />
@@ -643,9 +645,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</CamYawAxis>
 	<CamYawLeft>
 		<Primary Device="Keyboard" Key="Key_Q" />
@@ -656,9 +658,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="Keyboard" Key="Key_W" />
@@ -669,9 +671,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="28DE11FF" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="Keyboard" Key="Key_A" />
